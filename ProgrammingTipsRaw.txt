@@ -1,0 +1,114 @@
+Python resources:
+
+Note: when looking at programming tutorials it'll save you a lot of headaches if you always check
+1) which version of the programming language are they working with, old python tutorials will recommend using python 2.7 calling it standard, this is not the case anymore python 3.6+ is standard now and you should learn that instead.
+2) check the date of the tutorial if what they're recommending doesn't work, it could be that an update to something they're using broke their code.
+3) if you're starting out fresh with python and programming more generally I'd highly recommend just installing the Anaconda distribution. It'll preinstall a ton of commonly used libraries and give you jupyter notebook which I would recommend initially using to write and execute code. It will also install VS code if you'd like which is a decent text editor for writing straight scripts.  Installation guide
+
+
+Automate the Boring stuff with Python
+https://automatetheboringstuff.com/
+A very popular book for learning python that's now available for free online. Mostly centered around solving real world office based problems and solutions
+
+Learn Python the Hard way
+https://www.learnpythonthehardway.org/
+This is actually the book I learned to really learned how to learn how to program. It used to be free but now costs around 20 dollars or something like that, definitely worth it if you're serious. Is much more nitty gitty than ABP but still very beginner accessible in my opinion. 
+
+Pythonprogramming.net and Sentdex youtube channel
+https://pythonprogramming.net/
+The website is more of a platform for organizing the guy's videos and providing text summaries of his tutorials.
+
+This guy is probably one of my favorite resources for hands one tutorials in video form. He covers everything from Data Analysis, Visualization, Machine Learning, and some robotics/ He also sprinkles in a bunch of good tips regarding programming and regularly updates his videos when the material he teaches changes due to to updates
+
+Udacity.com
+https://eu.udacity.com/courses/data-analytics
+I can't say I recommend their more advanced courses but I really enjoyed and found the more intro level data analytics courses to be extremely helpful. Pretty much every video is about 4 minutes long and immediately has you use what you've learned with the course material they provide.
+I'd also recommend checking out their Linux and Git courses which are two tools you'll have to get familiar with sooner rather than later if you're going to be programming.
+
+Machine Learning Mastery
+https://machinelearningmastery.com/
+I always end up on this guy's site whenever I'm googling up some problem. Decent explanations of more technical and scientific topics.
+
+Dataquest.io
+https://www.dataquest.io/blog/
+I've never taken any of their paid classes but I do like their cheatsheets and some of their free tutorials are nice.
+
+Chris Albon's website and podcast
+https://chrisalbon.com/
+Contains some useful code snipits that a beginner-intermediate python user will find helpful. Especially if you're doing data science work. He used to host a podcast called Partially Derivative which I really enjoyed: http://partiallyderivative.com/
+
+R resources:
+
+Introduction to Statistical Learning:
+https://www-bcf.usc.edu/~gareth/ISL/
+Considered to be the book to study if you want to learn how machine learning actually works, Personally I am not 100% convinced that you have to read this thing cover to cover to actually use AI in the real world but I did enjoy it. The included labs contain R scripts that you can use to pretty much teach yourself up to intermediate R.
+
+Data Science blogs
+
+https://machinelearningmastery.com/
+http://thedataface.com/data-and-eggs
+https://dataelixir.com/
+https://www.oreilly.com/topics/data-science
+
+Tips for starting out
+
+What I would stress when first exploring the world of programming is to pick out a project to model your learning around. 
+
+A good project should be
+a) something you yourself would enjoy doing
+b) something you could show off to others
+c) can be expanded upon once the minimum viable product is completed
+
+This could be a web site or web app about something you care about or something you yourself could use. 
+
+For example you could make a simple web page about Big foot sightings. Start first by figuring out how to make a simple HTML page composed of text, pictures, and links. Then add a about me page via a different html page. Then download records of Bigfoot sightings and create a search able data base of big foot sights. Then make another page showing a map of bigfoot sightings. Heck once you get tired of updating the webpage of news of big foot sightings, make an automated webscrapper that combs google for big foot sightings. Then create the architecture that automatically populates your website with these records. Once you have enough geo tagged information you could try and train a machine learning model that predicts where Bigfoot shows up. 
+
+For the project above, you would have to learn HTML to create the basic layout of the website, CSS to make the website not look like it was made in the early 90s, Javascript to handle search functions and interactive maps, Python as a backend for serving all the web content, powering the scrappers, and doing the machine learning. Presto! None of this would make you a master in any one of those technologies but they would be enough to land you a job. And really mastery is relative to what you can do. Can you make a website and keep it up to date? If so you're a developer, sure there's mountains of documentation to go through for any one of those things but I highly suggest just focusing on what's immediately necessary. 
+
+Now how would you learn these things? Google it. Seriously, being able to google things is perhaps one of the most important skills to hone when programming. What I would stress is trying to make your searches as specific as possible and always google alternative approaches to fixing a problem you encounter. For example in the above example you may try to use a Python framework called Flask to host your website. But there are other frameworks as well. Maybe if you encounter a problem using flask you could try Django. The biggest roadblock to learning to program is frustration. Your stuff will break and break often. What's important for learning and sanity is that you always find a path forward. You really want to minimize any feelings of wanting to break your keyboard. Being used to and willing to look through documentation and frame a question is what will keep up your momentum. I often will post questions to websites like stackoverflow and often just typing out the question and details surrounding it is enough for me to figure out a new thing to try and more often than not I'll be able to figure it out. 
+
+Really in the grand scheme of things, learning to program is really just mastering how to learn programming frameworks. You may become an expert in Javascript or Python but in all likelyhood you'll loose your advantage once a better or more popular framework comes out, it's just that right now Javascript and Python are really huge. For starting out I'd really recommend sticking to popular frameworks and languages that have been around for awhile. One they're the most likely to land you a job and two they're more likely to have extensive documentation surround how they work and plenty of tutorials online. 
+
+Right now Java, Javascript, and Python are probably the biggest right now. 
+
+note Javascript has literally nothing to do with Java, and technically javascript is really named ecmascript. Don't ask.
+
+Python is probably one of the better languages to start with. It's by designed around being clear, concise, and easy to read and understand. It was also originally conceived as a language to teach people how to code but is very powerful in it's own right. It's also the language of choice when it comes to doing anything Data Science related if that's something your interested in. 
+
+Essentially a contest site for machine learning. The winners of the competitions post their code publicly. It's a really neat way of learning via example. 
+https://kaggle.com
+
+Javascript is pretty much damn near ubiquitous now as it pretty much powers every website out there. 
+I refer to this web page a lot for javacript stuff: https://javascript.info/
+
+
+Learning Paths
+
+Generally speaking I believe it best to first start using frameworks, languages, and libraries that have been awhile for awhile and are popular. This usually means that there will be a lot of reference material online and your stack overflow questions will be responded to quickly. But if in the end you feel both fulfilled playing around with something more obscure like lisp or clojure than go be happy, if you master either of those then learning something more practical like Python will be simple. And while lisp is less popular, for example, the pool of candidates applying for lisp jobs is also much smaller, so you win either way.
+
+Data Science
+For Data Science Python is much more popular than R, so it's perhaps easier to try and learn that first. I'd focus on first getting a basic handle on the concept of a list and dictionary in python as well as functions and loops. Don't try doing any while loops until you are really certain of what you're doing.
+
+and then jump into learning pandas. If you do a lot of work in Excel then try and see if you can speed up and automate your workflow with pandas. Then you can try creating a basic interface between excel and your pandas operations with xlwings or another python-excel library, I just personally find xlwings to be the most intuitive. 
+
+If you don't do too much with excel I'd focus on trying to transform raw data into finished products, either as graphs or machine learning models. Get a basic idea of graphing in Python with matplotlib and then try using Seaborn which is built on top of matplotlib. If you want to do more graphing or dig further into data visualization, check out plotly next 
+
+
+Project Ideas:
+
+check out Kaggle.com for data science projects if you can't think of anything.
+
+Check with NGOs or companies of people that you know, or your own if you have one. Try and figure out their main business problems and then trying to solve it using the Data Science Hierarchy of needs which you can read about here: https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007
+
+give someone's website a facelift, automate some boring excel function (checkout xlwings), create a twitter bot, analyze yelp reviews (God help you with that API), do some ricing with linux, Scrape a website. There's plenty to do and never believe for an instant that you can't do what someone else has already done. 
+
+Take a look at github repos and analyze a project, line by line, google is your friend. Though I personally find Duck Duck Go to be a better search engine for programming topics. 
+
+On the topic of Text Editors:
+
+A lot of people I've talked to starting out for some reason stress out about what text editor to use to write code. Frankly just pick one, any one to start with, learn the keyboard shortcuts as you go and you'll look like a hacker in no time. 
+
+But if I were to give a recommendation I'd say start with VS Code or Atom and then move to vim or emacs. The later two have a steep learning curve but once you learn the basics you'll be amazed how much more productive you'll be. I started out using VS Code and then move to Vim and currently use spacemacs which combines both emacs and vim, and I love it a lot. 
+
+
+
